@@ -21,7 +21,7 @@ float construct_float_sf(char sign_bit, char exponent, unsigned int fraction) {
     /* ----------------------------------------------------------------------------------------*/
 }
 
-int main(int argc, char* argv)
+int main(int argc, char* argv[])
 {
     (void) argc; // to supress compiler warning
     (void)argv;  // to supress compiler warning   
