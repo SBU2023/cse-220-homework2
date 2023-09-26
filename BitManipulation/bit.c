@@ -32,7 +32,7 @@ int CountBit(int num) {
 }
 
 int PowerofTwo(unsigned int num) {
-    return num && (!(num & (num - 1)));
+    return num && (!(num & (num - 1)));azsxghytcx      kok
 }
 
 int main(int argc, char* argv[]){
