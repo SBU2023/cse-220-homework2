@@ -22,8 +22,18 @@ int ReverseBit(int num) {
     }
     return result;
 }
-int CountBit(int num);
-int PowerofTwo(unsigned int num);
+int CountBit(int num) {
+    int count = 0;
+    while (num) {
+        num &= (num - 1);
+        count++;
+    }
+    return count;
+}
+
+int PowerofTwo(unsigned int num) {
+    return num && (!(num & (num - 1)));
+}
 
 int main(int argc, char* argv[]){
 	(void)argc;
